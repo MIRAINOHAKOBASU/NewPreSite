@@ -1,0 +1,55 @@
+$StdMgn : 20px;
+
+body{
+	background-color: #d8deea;
+}
+
+.backIMG{
+	position: fixed;
+	z-index: 0;
+	right: 0;
+	max-height: 110%;
+	top: 0;
+	bottom: 0;
+	margin: auto 0;
+}
+
+.inner{
+	position: fixed;
+	left: 0;
+	right: 0;
+	width: 1280px;
+	height: 100%;
+	z-index: 10;
+	margin: 0 auto;
+}
+
+.title{
+	position: absolute;
+	height: 70%;
+	top: $StdMgn;
+	left: $StdMgn;
+}
+
+.place{
+	position: absolute;
+	height: auto;
+	left: $StdMgn;
+	bottom: $StdMgn;
+}
+
+.icon{
+	height: 12px;
+	margin-left: 1px;
+	margin-right: 3px;
+}
+
+.oneLine{
+	display: inline;
+}
+
+.fb{
+	position: absolute;
+	bottom: $StdMgn;
+	right: $StdMgn;
+}

@@ -240,80 +240,91 @@ textarea {
   clip: auto;
 }
 
-body {
-  background-color: #d8deea;
+@media screen and (max-width: 649px) {
+  .pc_only {
+    display: none;
+  }
 }
-body:hover > .backIMG {
-  right: 0;
-}
+@media screen and (min-width: 650px) {
+  .small_only {
+    display: none;
+  }
 
-a {
-  padding: 0 2px;
-}
-a:link {
-  color: #0000ff;
-}
-a:visited {
-  color: #0000ff;
-}
-a:hover {
-  color: #9999ff;
-}
-a:active {
-  color: #9999ff;
-}
+  body {
+    background-color: #d8deea;
+  }
+  body:hover > .backIMG {
+    right: 0;
+  }
 
-.backIMG {
-  position: fixed;
-  z-index: 0;
-  right: 0;
-  max-height: 110%;
-  top: 0;
-  right: -5%;
-  bottom: 0;
-  margin: auto 0;
-  -webkit-transition: 15s;
-          transition: 15s;
-  -webkit-transition-timing-function: linear;
-          transition-timing-function: linear;
-}
+  a {
+    padding: 0 2px;
+  }
+  a:link {
+    color: #0000ff;
+  }
+  a:visited {
+    color: #0000ff;
+  }
+  a:hover {
+    color: #9999ff;
+  }
+  a:active {
+    color: #9999ff;
+  }
 
-.inner {
-  position: fixed;
-  left: 0;
-  right: 0;
-  width: 1280px;
-  height: 100%;
-  z-index: 10;
-  margin: 0 auto;
-}
+  .backIMG {
+    position: fixed;
+    z-index: 0;
+    right: 0;
+    max-height: 110%;
+    top: 0;
+    right: -5%;
+    bottom: 0;
+    margin: auto 0;
+    -webkit-transition: 15s;
+            transition: 15s;
+    -webkit-transition-timing-function: linear;
+            transition-timing-function: linear;
+  }
 
-.title {
-  position: absolute;
-  height: 70%;
-  top: 20px;
-  left: 20px;
-}
+  .inner {
+    position: fixed;
+    left: 0;
+    right: 0;
+    max-width: 1280px;
+    height: 100%;
+    z-index: 10;
+    margin: 0 auto;
+  }
 
-.place {
-  position: absolute;
-  height: auto;
-  left: 20px;
-  bottom: 20px;
-}
+  .title {
+    position: absolute;
+    height: 70%;
+    top: 20px;
+    left: 20px;
+  }
 
-.icon {
-  height: 12px;
-  margin-left: 1px;
-  margin-right: 3px;
-}
+  .place {
+    position: absolute;
+    height: auto;
+    left: 20px;
+    bottom: 20px;
+  }
 
-.oneLine {
-  display: inline;
-}
+  .icon {
+    height: 12px;
+    margin-left: 1px;
+    margin-right: 3px;
+  }
 
-.fb {
-  position: absolute;
-  bottom: 20px;
-  right: 20px;
+  .oneLine {
+    display: inline;
+  }
+
+  .fb {
+    position: absolute;
+    bottom: 20px;
+    right: 20px;
+  }
 }

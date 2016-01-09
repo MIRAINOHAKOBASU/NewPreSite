@@ -15,6 +15,12 @@
 @import "reset"; //sanitize.css
 @import "mixin"; //関数
 @import "common"; //共通クラス、変数
-@import "main"; //メイン
+@media screen and ( max-width:649px ){
+	@import "small";//スマホ用
+}
+@media screen and ( min-width:650px ) {
+	@import "main"; //メイン
+}
+
 
 @import "print"; //印刷関係

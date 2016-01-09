@@ -300,9 +300,6 @@ textarea {
   body {
     background-color: #d8deea;
   }
-  body:hover > .backIMG {
-    right: 0;
-  }
 }
 @media screen and (min-width: 650px) and (max-height: 480px) {
   body {
@@ -331,9 +328,9 @@ textarea {
     position: fixed;
     z-index: 0;
     right: 0;
-    max-height: 110%;
+    max-height: 105%;
     top: 0;
-    right: -5%;
+    right: 0;
     bottom: 0;
     margin: auto 0;
     -webkit-transition: 15s;

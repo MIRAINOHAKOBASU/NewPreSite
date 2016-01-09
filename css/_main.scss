@@ -6,11 +6,6 @@ $StdMgn : 20px;
 
 body{
 	background-color: #d8deea;
-	&:hover{
-		&>.backIMG{
-			right: 0;
-		}
-	}
 	@media screen and (max-height: 480px){
 		font-size: 0.8em;
 	}
@@ -28,7 +23,7 @@ a{
 	position: fixed;
 	z-index: 0;
 	right: 0;
-	max-height: 110%;
+	max-height: 105%;
 	top: 0;
 	right: 0;
 	bottom: 0;

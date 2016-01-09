@@ -2,6 +2,19 @@ $StdMgn : 20px;
 
 body{
 	background-color: #d8deea;
+	&:hover{
+		&>.backIMG{
+			right: 0;
+		}
+	}
+}
+
+a{
+	padding: 0 2px;
+	&:link { color: #0000ff; }
+	&:visited { color: #0000ff; }
+	&:hover { color: #9999ff; }
+	&:active { color: #9999ff; }
 }
 
 .backIMG{
@@ -10,8 +23,11 @@ body{
 	right: 0;
 	max-height: 110%;
 	top: 0;
+	right: -5%;
 	bottom: 0;
 	margin: auto 0;
+	transition: 15s;
+	transition-timing-function: linear;
 }
 
 .inner{

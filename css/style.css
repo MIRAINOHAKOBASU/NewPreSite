@@ -243,6 +243,25 @@ textarea {
 body {
   background-color: #d8deea;
 }
+body:hover > .backIMG {
+  right: 0;
+}
+
+a {
+  padding: 0 2px;
+}
+a:link {
+  color: #0000ff;
+}
+a:visited {
+  color: #0000ff;
+}
+a:hover {
+  color: #9999ff;
+}
+a:active {
+  color: #9999ff;
+}
 
 .backIMG {
   position: fixed;
@@ -250,8 +269,13 @@ body {
   right: 0;
   max-height: 110%;
   top: 0;
+  right: -5%;
   bottom: 0;
   margin: auto 0;
+  -webkit-transition: 15s;
+          transition: 15s;
+  -webkit-transition-timing-function: linear;
+          transition-timing-function: linear;
 }
 
 .inner {

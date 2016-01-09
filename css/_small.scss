@@ -1,3 +1,50 @@
 .pc_only{
 	display: none;
 }
+
+.title{
+	width: 100%;
+}
+
+.blue{
+	background-color: #dfecff;
+}
+
+.about{
+	padding: 5% 5%;
+	text-align: center;
+	p{
+		margin: 5% 0;
+	}
+}
+
+.place{
+	padding: 10% 5%;
+	text-align: center;
+	h3{
+		color: #18469b;
+		margin-bottom: 4%;
+	}
+	.oneLine{
+		display: inline;
+		margin-right: 10px;
+	}
+}
+
+.next{
+	@extend .about;
+	h2{
+		margin-top: 5%;
+		font-size: 1.2em;
+	}
+	p{
+		margin-top: 3%;
+	}
+}
+
+#copyright{
+	@extend .about;
+	p{
+		margin: 1% 0;
+	}
+}

@@ -246,6 +246,11 @@ textarea {
   margin-right: 3px;
 }
 
+s {
+  color: #888;
+  margin: 0 0.5em;
+}
+
 @media screen and (max-width: 649px) {
   .pc_only {
     display: none;
